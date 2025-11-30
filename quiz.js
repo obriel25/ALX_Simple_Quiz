@@ -9,7 +9,7 @@ function checkAnswer () {
     const feedbackE1 = document.getElementById("feedback"); // 3. get feedback element
 
     // 4. compare answers and update feedback
-    if(userAnswer === correctAnswer){
+    if (userAnswer === correctAnswer){
         feedbackE1.textContent = "Correct! Well done .";
         
     } else {
